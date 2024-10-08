@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import OpenAI from 'openai';
-import { uploadToVercelBlob } from '../../util/vercelBlob';
+import uploadToVercelBlob from '../../util/vercelBlob';
 
 export async function POST(request) {
   const formData = await request.formData();
