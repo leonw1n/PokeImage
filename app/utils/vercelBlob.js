@@ -1,4 +1,3 @@
-// /utils/vercelBlob.js
 
 export async function uploadToVercelBlob(file) {
     const vercelBlobApiKey = process.env.VERCEL_BLOB_API_KEY;
